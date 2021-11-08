@@ -35,7 +35,7 @@ fh = figure(1);
 set(fh, 'Color', 'white'); 
 set(fh,'Position',[8 45 1350 630]);
 
-aviobj = VideoWriter('2D_interference.avi');
+aviobj = VideoWriter('Wave2D.avi');
 aviobj.Quality = 100;
 aviobj.FrameRate = 10;
 open(aviobj);
